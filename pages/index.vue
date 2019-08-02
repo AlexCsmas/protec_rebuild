@@ -35,14 +35,14 @@
                       <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/consulting_cweabm.svg" class="w-24 h-24 object-cover">
                       <div class="pl-5">
                       <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Consultancy Services</h4>
-                      <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">The service we offer will develop your current systems, give guidance on improving your
-documentation and safety culture. </p>
+                      <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">The service we offer will develop your current systems, give guidance on improving your
+documentation and safety culture.</p>
                     </div>
                     <div class="flex items-center">
                         <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/education_t1vl8p.svg" class="w-24 h-24 object-cover">
                         <div class="pl-5">
                             <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Training Services</h4>
-                            <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">We are nationally accredited in offering training and Health & Safety operating in South Africa, Nigeria, Kenya, New Zealand and Australia</p>
+                            <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">We are nationally accredited in offering training and Health & Safety operating in South Africa, Nigeria, Kenya, New Zealand and Australia</p>
                       </div>
                     </div>
                   
@@ -66,7 +66,7 @@ documentation and safety culture. </p>
                   <div class="w-full lg:flex-1 max-w-2xl lg:pl-12 text-gray-800">
                   <p class="text-xl mb-3">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</p>
                   <p class="text-xl mb-3"> We offer a wide range of both generic and specific Occupational health, Safety, environmental and quality management systems courses and consultancy services via Protec Consulting and offer the provision of hazardous PPE and Decontamination Shelters via Protec Equipment.</p>
-                  <p class="text-lg mb-3">
+                <p class="text-xl mb-3">
                   Our aim is to offer our clients quick yet quality services; from individuals to large businesses by enhancing staff skill set and performance. Our team are dedicated to helping you from the first conversation through to course or service completion. </p>
                   <p class="text-xl mb-3">
                   Protec Group Africa aims to improve your business performance and returns on investments through globally recognised qualifications, bespoke training programs and sector-specific consultancy services regardless of your client size</p>

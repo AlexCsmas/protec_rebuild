@@ -1,13 +1,14 @@
 <template>
-     <header class="bg-primary relative z-20 px-6">
-        <div class="container mx-auto flex justify-between items-center relative h-24 ">
+     <header class="bg-primary z-20 px-6 relative">
+
+        <div class="container mx-auto flex justify-between items-center h-24 static">
   
-          <a href="/" class="h-full inline-block flex items-center text-white text-lg z-50 justify-center">
-       
-            <img src="https://res.cloudinary.com/alexoc/image/upload/v1563162452/Protec%20EA%20Logo.svg" class="h-full w-auto" />
+          <a href="/" class="h-full flex text-white text-lg justify-center absolute left-0">
+            <img src="https://res.cloudinary.com/alexoc/image/upload/v1563162452/Protec%20EA%20Logo.svg" class="h-40 md:h-32" />
           </a>
   
-          <ul class="hidden md:flex flex-1 h-full justify-end items-center text-white text-2xl">
+          <ul class="hidden md:flex flex-1 h-full justify-end items-center text-white text-xl">
+            
             <li>
                 <nuxt-link to="/" class="hover:opacity-75">Home</nuxt-link>
             </li>
@@ -20,11 +21,13 @@
             <li class="ml-6">
                 <nuxt-link to="/courses">Courses</nuxt-link>
             </li>
-           
+           <li class="ml-6">
+                <nuxt-link to="/latest_news">Latest News</nuxt-link>
+            </li>
 
             <li class="ml-6 flex justify-end">
 
-                 <nuxt-link to="/contact" class="hidden md:block bg-secondary text-white py-2 px-4 text-xs md:text-2xl rounded-r rounded-l ml-3 hover:shadow-lg">Contact Us</nuxt-link>
+                 <nuxt-link to="/contact" class="hidden md:block bg-secondary text-white py-2 px-4 text-xs md:text-xl rounded-r rounded-l ml-3 hover:shadow-lg">Contact Us</nuxt-link>
                  
             </li>
           </ul>

@@ -50,7 +50,7 @@
                       </div>
                       
                       <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
-                        <h4 class="font-condensed pb-4">Find us</h4>
+                        <h4 class="font-condensed pb-4">Locate us</h4>
                         <a href="#" target="_blank" class="text-sm text-gray-800 py-1">Office Location</a>
                         <a href="#" target="_blank" class="text-sm text-gray-800 py-1">Contact Us</a>
                       </div>
