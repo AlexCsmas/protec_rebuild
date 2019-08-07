@@ -85,6 +85,14 @@ documentation and safety culture.</p>
             </div>
       
           </div> <!-- End of About Us --->
+
+          <ArticleCard
+                v-for="(blog, index) in blogList"
+                :key="index"
+                :index="index"
+                :article-info="blog"
+          />
+
        
         <!-- Blog Section --> 
 
@@ -162,8 +170,39 @@ documentation and safety culture.</p>
           
               </div><!-- Blog Section -->
 
+
+
               
-
-
 </body>
 </template>
+
+
+<script>
+import ArticleCard from '~/components/ArticleCard'
+import blogs from '~/content/blogs.json'
+
+export default {
+  components: {
+    ArticleCard
+  },
+  async asyncData({ app }) {
+    async function awaitImport(blog) {
+      const wholeMD = await import(`~/content/blog/${blog.slug}.md`)
+      return {
+        attributes: wholeMD.attributes,
+        link: blog.slug
+      }
+    }
+
+    const blogList = await Promise.all(
+      blogs.map(blog => awaitImport(blog))
+    ).then(res => {
+      return {
+        blogList: res
+      }
+    })
+
+    return blogList
+  }
+}
+</script>
