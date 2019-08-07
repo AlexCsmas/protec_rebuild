@@ -5,10 +5,10 @@
   "author": "Alex",
   "private": true,
   "scripts": {
-    "dev": "node content/index.js && nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "node content/index.js && nuxt generate"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.5.4",
