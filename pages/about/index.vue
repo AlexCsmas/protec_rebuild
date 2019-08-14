@@ -6,6 +6,18 @@
 
         <!-- Content -->
 
+        <div class="w-full bg-white">
+
+            <!-- title -->
+            <div class="text-center px-6 py-12 bg-gray-100 border-b">
+              <h1 class="font-display-italic font-extrabold text-5xl md:text-5xl leading-none py-4">About Us.</h1>
+            </div>
+            <!-- /title -->
+
+        </div>
+
+        
+
        <div class="bg-white p-12 py-24">
 
             <div class="container mx-auto">
@@ -13,7 +25,7 @@
               <div class="flex flex-wrap items-center">
                 
                 <div class="mb-12 lg:mb-0 w-full lg:w-4/12 text-left content-start ">
-                  <h2 class="mb-4 font-black leading-tight text-xl md:text-3xl text-gray-900 ">About Us</h2>
+                  
                   <h3 class="mb-6 text-sm md:text-2xl text-gray-700 max-w-xl">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</h3>
  
                 </div>
