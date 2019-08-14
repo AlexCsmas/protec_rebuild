@@ -15,11 +15,11 @@
                 <div class=" bg-primary p-8 text-white">
                     <ul class=" px-8 ">
                         <h3 class=" text-2xl">CONSULTANCY SERVICES</h3>                        
-                            <li class=" border-b border-bg-secondary bg-gray-200 text-primary">Health & Safety Consultancy</li>
+                            <li>Health & Safety Consultancy</li>
                             <li>Fire Risk Assessment / Fire Safety Audit</li>
 
                         <h3 class=" text-2xl pt-4">TRAINING SERVICES</h3>
-                           <nuxt-link to="/courses/course">Safety Management – IOSH Courses</nuxt-link>
+                            <nuxt-link to="/courses/coursecat" class=" border-b border-bg-secondary text-white">Safety Management – IOSH Courses</nuxt-link>
                             <li>Construction Safety Courses</li>
                             <li>Safety Passport Schemes</li>
                             <li>Workplace Safety Training Courses</li>
