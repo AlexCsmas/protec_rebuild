@@ -70,21 +70,21 @@
                       <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=450" class="w-24 h-24 object-cover">
                       <div class="pl-5">
                         <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Safety Management Courses</h4>
-                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Gravida rutrum quisque non tellus orci ac auctor augue.</p>
+                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm"></p>
                       </div>
                     </li>
                     <li class="flex items-center mb-6">
                       <img src="https://images.unsplash.com/photo-1527576539890-dfa815648363?w=450" class="w-24 h-24 object-cover">
                       <div class="pl-5">
                         <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Workplace Safety Training Courses</h4>
-                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Gravida rutrum quisque non tellus orci ac auctor augue.</p>
+                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm"></p>
                       </div>
                     </li>
                     <li class="flex items-center mb-6">
                       <img src="https://images.unsplash.com/photo-1527576539890-dfa815648363?w=450" class="w-24 h-24 object-cover">
                       <div class="pl-5">
                         <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Construction Safety Courses</h4>
-                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Gravida rutrum quisque non tellus orci ac auctor augue.</p>
+                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm"></p>
                       </div>
                     </li>
                     <li class="flex items-center">
