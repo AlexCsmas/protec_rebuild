@@ -23,24 +23,35 @@
                    
 					<article class="mb-12">
 
-                        <div class="posts" v-for="post in posts" :key="post.id">
-                            <h2 class="my-4 text-black text-xl md:text-2xl no-underline hover:underline">
-                                   <nuxt-link :to="{ name: 'latest_news-post-slug', params: { slug: post.slug, id: post.id } }">   {{ post.title.rendered }} </nuxt-link> 
-                            </h2>
-                            <div class="text-gray-700 leading-normal" v-html="post.excerpt.rendered" ></div>     
 
-                            <nuxt-link :to="{ name: 'latest_news-post-slug', params: { slug: post.slug, id: post.id } }"> Read More </nuxt-link> 
 
-                        </div>
-                        
-						<div class="mb-4 text-sm text-gray-700">
-							by <a href="#" class="text-gray-700">Joe Bloggs</a> on 19th March 2019
-							<span class="font-bold mx-1"> | </span>
-							<a href="#" class="text-gray-700">Uncategorised</a>
-							<span class="font-bold mx-1"> | </span>
-							<a href="#" class="text-gray-700">2 Comments</a>
+						<div>
+							<div class="posts">
+								<nuxt-link to="/latest_news/post/blog-post-1">
+									<h2 class="mt-2 text-black text-xl md:text-2xl no-underline hover:underline">
+										Importance of Health and Safety training
+									</h2>
+								</nuxt-link>
+								
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis illum hic debitis repudiandae! Quas odio tenetur temporibus mollitia nesciunt quia aliquid veniam doloribus tempora necessitatibus maiores harum, corporis soluta?
+								</p>
+
+							</div>
+							
+							<div class="mb-4 text-sm text-gray-700">
+								by <a href="#" class="text-gray-700">Joe Bloggs</a> on 19th March 2019
+								<span class="font-bold mx-1"> | </span>
+								<a href="#" class="text-gray-700">Uncategorised</a>
+								<span class="font-bold mx-1"> | </span>
+								<a href="#" class="text-gray-700">2 Comments</a>
+							</div>
 						</div>
-                      
+
+
+						<!-- ||||||||||||||||| Our POST COMPONENT |||||||||||||||||| --> 
+
+						<posts />
 
 
 					</article>
@@ -74,7 +85,7 @@
 							<ul class="list-reset leading-normal">
 								<li><a href="#" class="text-gray-darkest text-sm">Importance of Health and Safety training</a></li>
 							
-							</ul>
+							</ul>z
 						</div>
 					</aside>
 
@@ -88,23 +99,12 @@
 </template>
 
 <script>
-import axios from 'axios'
+import Posts from '~/components/Posts.vue'
 
 export default {
-    
-    fetch({ store })  {
-        return axios.get('http://blog.weareproteceastafrica.com/wp-json/wp/v2/posts').then((res) => {
-            store.commit('latestnewsPagePosts', res.data)
-        }).catch((error) => {
-            console.log(error)
-        })
-    }, 
-
-    computed: {
-        posts() {
-            return this.$store.state.posts
-        }
-    }
-
+  components: {
+    Posts
+  },
+  // ...
 }
 </script>

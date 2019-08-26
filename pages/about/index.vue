@@ -91,7 +91,7 @@
                       <img src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?w=450" class="w-24 h-24 object-cover">
                       <div class="pl-5">
                         <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Safety Passport Schemes</h4>
-                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm">Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Gravida rutrum quisque non tellus orci ac auctor augue.</p>
+                        <p class="text-xs md:text-sm text-gray-700 leading-snug max-w-sm"></p>
                       </div>
                     </li>
                     

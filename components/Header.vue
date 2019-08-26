@@ -21,9 +21,9 @@
             <li class="ml-6">
                 <nuxt-link to="/courses">Courses</nuxt-link>
             </li>
-            <!-- <li class="ml-6">
+            <li class="ml-6">
                 <nuxt-link to="/latest_news">Latest News</nuxt-link>
-            </li> -->
+            </li>
 
             <li class="ml-6 flex justify-end">
 
