@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.5.4",
+    "firebase": "^6.4.2",
     "front-matter-markdown": "^0.4.3",
     "frontmatter-markdown-loader": "^1.8.0",
     "nuxt": "^2.0.0",
