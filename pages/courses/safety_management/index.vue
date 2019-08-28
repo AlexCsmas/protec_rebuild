@@ -101,43 +101,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                      <tr>
-                                        <td>IOSH Managing Safely</td>
-                                        <td>4 Day</td>
-                                        <td>Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline"> 
-                                            <nuxt-link to="/courses/coursecat/courseId">View Course Details</nuxt-link>
+                                      <tr class=" w-full ">
+                                        <td class=" md: w-2/5">NEBOSH HSE Certificate in Process Safety Management</td>
+                                        <td class=" md: w-1/5">5 days</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
+                                            <nuxt-link to="/courses/safety_management/_NEBOSH/NEBOSH_HSE_Certificate_in_Process_Safety_Management">View Course Details</nuxt-link>
                                         </td>
                                     </tr>
                                     
-                                    <tr>
-                                        <td>IOSH Directing Safely</td>
-                                        <td>1 Day</td>
-                                        <td>Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline">
-                                            <nuxt-link to="/coursedetails/IOSH">View Course Details</nuxt-link>
-                                        </td>
-                                        
-                                    </tr>
-
-                                    <tr>
-                                        <td>IOSH Supervising Safely</td>
-                                        <td>3 Day</td>
-                                        <td>Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline">
-                                            <nuxt-link to="">View Course Details</nuxt-link>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>IOSH Working Safely</td>
-                                        <td>1 Day</td>
-                                        <td>Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline">
-                                            <nuxt-link to="">View Course Details</nuxt-link>
-                                        </td>
                                     
-                                    </tr>
                                 </tbody>
                                 
                             </table>
