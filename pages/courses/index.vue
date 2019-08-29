@@ -40,8 +40,6 @@
 
 <script>
 import CourseCategory from '~/components/Course/CourseCategory'
-
-
 export default {
     components: {
        

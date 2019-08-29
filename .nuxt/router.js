@@ -12,6 +12,8 @@ const _e7a34d94 = () => interopDefault(import('..\\pages\\services\\index.vue' /
 const _eb76a99a = () => interopDefault(import('..\\pages\\course\\safety_management_course.vue' /* webpackChunkName: "pages_course_safety_management_course" */))
 const _4b683c51 = () => interopDefault(import('..\\pages\\courses\\coursecat\\index.vue' /* webpackChunkName: "pages_courses_coursecat_index" */))
 const _ed2a2588 = () => interopDefault(import('..\\pages\\courses\\safety_management\\index.vue' /* webpackChunkName: "pages_courses_safety_management_index" */))
+const _306b6fb1 = () => interopDefault(import('..\\pages\\courses\\specialised_courses\\index.vue' /* webpackChunkName: "pages_courses_specialised_courses_index" */))
+const _4d5bc90d = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\index.vue' /* webpackChunkName: "pages_courses_workplace_safety_index" */))
 const _559e03bb = () => interopDefault(import('..\\pages\\courses\\coursecat\\courseId\\index.vue' /* webpackChunkName: "pages_courses_coursecat_courseId_index" */))
 const _e397b29c = () => interopDefault(import('..\\pages\\latest_news\\post\\blog-post-1.vue' /* webpackChunkName: "pages_latest_news_post_blog-post-1" */))
 const _5b2ea6b0 = () => interopDefault(import('..\\pages\\not_being\\coursedetails\\_id.vue' /* webpackChunkName: "pages_not_being_coursedetails__id" */))
@@ -154,6 +156,14 @@ export function createRouter() {
       component: _ed2a2588,
       name: "courses-safety_management"
     }, {
+      path: "/courses/specialised_courses",
+      component: _306b6fb1,
+      name: "courses-specialised_courses"
+    }, {
+      path: "/courses/workplace_safety",
+      component: _4d5bc90d,
+      name: "courses-workplace_safety"
+    }, {
       path: "/courses/coursecat/courseId",
       component: _559e03bb,
       name: "courses-coursecat-courseId"
@@ -186,11 +196,11 @@ export function createRouter() {
       component: _b3442072,
       name: "courses-safety_management-NEBOSH-NEBOSH_HSE_Certificate_in_Process_Safety_Management"
     }, {
-      path: "/courses/workplace_safety/:Fire Safety?/Practical_Fire_Safety_Awareness_Training",
+      path: "/courses/workplace_safety/:Fire Safety/Practical_Fire_Safety_Awareness_Training",
       component: _2df123f8,
       name: "courses-workplace_safety-Fire Safety-Practical_Fire_Safety_Awareness_Training"
     }, {
-      path: "/courses/workplace_safety/:Health_and_Safety_at_Work?/Introduction_To_Health_And_Safety",
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/Introduction_To_Health_And_Safety",
       component: _1045ca9d,
       name: "courses-workplace_safety-Health_and_Safety_at_Work-Introduction_To_Health_And_Safety"
     }, {

@@ -90,7 +90,7 @@ documentation and safety culture.</p>
        
         <!-- Blog Section --> 
 
-            <div class="bg-gray-100 py-24 px-12">
+            <!-- <div class="bg-gray-100 py-24 px-12">
 			
                 <div class="max-w-xl mx-auto text-center">
                     <h2 class="font-black leading-tight text-xl md:text-5xl mb-4">Latest News</h2>
@@ -162,7 +162,8 @@ documentation and safety culture.</p>
           
                 </div>
           
-              </div><!-- Blog Section -->
+              </div> -->
+              <!-- Blog Section -->
 
 
 

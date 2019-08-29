@@ -63,8 +63,8 @@
                             <h3 class=" md:text-2xl font-medium underline text-primary">Cost</h3>
 
                             <div class="">
-                                <p>We would be happy to provide you with a no obligation quote for the cost of your IOSH/NEBOSH Courses.</p>
-                                <p>To arrange for your an IOSH/NEBOSH course from Protec Consulting, or request a no obligation quote, please call us on <span class=" text-primary font-bold"> +254 715 742 898</span> or <span class=" text-primary font-bold">email info.ea@weareprotecafrica.com</span></p>
+                                <p>We would be happy to provide you with a no obligation quote for the cost of your Safety Passport Course.</p>
+                                <p>To arrange for your Safety Passport Courses from Protec Consulting, or request a no obligation quote, please call us on <span class=" text-primary font-bold"> +254 715 742 898</span> or <span class=" text-primary font-bold">email info.ea@weareprotecafrica.com</span></p>
                             </div>
                         
             </article>

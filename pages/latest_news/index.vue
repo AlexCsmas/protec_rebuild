@@ -25,30 +25,15 @@
 
 					</article>
 
-
-					<div class="flex justify-between text-xs">
+					<!-- <div class="flex justify-between text-xs">
 						<a href="#" class="bg-gray text-white no-underline py-2 px-3 rounded">Previous</a>
 						<a href="#" class="bg-black text-white no-underline py-2 px-3 rounded">Next</a>
-					</div>
+					</div> -->
+
 				</div>
 				<!--/ articles -->
 
-				<!-- sidebar -->
-				<div class="w-full md:w-64">
-					
-					<aside class="rounded shadow overflow-hidden mb-6">
-						<h3 class="text-sm bg-gray-100 text-gray-700 py-3 px-4 border-b">Latest Posts</h3>
-
-						<div class="p-4">
-							<ul class="list-reset leading-normal">
-								<li><a href="#" class="text-gray-darkest text-sm">Importance of Health and Safety training</a></li>
-							
-							</ul>z
-						</div>
-					</aside>
-
-				</div>
-				<!-- /sidebar -->
+				
 
 			</div>
 

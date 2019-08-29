@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\assets\\css\\tailwind.css'
 
+import _8d4440cc from '..\\layouts\\course-cat.vue'
+import _4db7d006 from '..\\layouts\\course-details.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_course-cat": _8d4440cc,"_course-details": _4db7d006,"_default": _6f6c098b }
 
 export default {
   head: {"title":" Protec East Africa Limited ","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":" Protec East Africa is part of Protec Group Africa, A "}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
@@ -39,7 +42,7 @@ export default {
       domProps: {
         id: '__nuxt'
       }
-    }, [loadingEl, transitionEl])
+    }, [loadingEl, h(NuxtBuildIndicator), transitionEl])
   },
   data: () => ({
     isOnline: true,
@@ -98,6 +101,8 @@ export default {
     },
 
     setLayout(layout) {
+      if(layout && typeof layout !== 'string') throw new Error('[nuxt] Avoid using non-string value as layout property.')
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

@@ -16,12 +16,12 @@
 							<div class="posts">
 								<nuxt-link :to="`/post/${post.id}`">
 									<h2 class="mt-2 text-black text-xl md:text-2xl no-underline hover:underline">
-										{{ post.title }} | Importance of Health and Safety training
+										{{ post.title }} 
 									</h2>
 								</nuxt-link>
 								
 								<p>
-									{{ post.summary }} | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis illum hic debitis repudiandae! Quas odio tenetur temporibus mollitia nesciunt quia aliquid veniam doloribus tempora necessitatibus maiores harum, corporis soluta?
+									{{ post.summary }} 
 								</p>
 
 							</div>

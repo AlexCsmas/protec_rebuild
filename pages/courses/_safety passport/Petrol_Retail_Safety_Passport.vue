@@ -49,43 +49,8 @@
                                         
                                             
                                             <h4 class=" text-3xl font-bold text-primary">Duration</h4>
-                                            <p>5 Days</p>
-                                            <h3 class=" text-3xl font-bold text-primary">Course Content</h3>
-                                            <p>Nairobi, Mombasa, Kisumu, Daresalaam, Moshi, Arusha, Entebbe, Kampala, and IN HOUSE</p>
-                                            <h4 class=" text-3xl font-bold text-primary">Course Outline</h4>
-                                            <h4 class=" text-2xl font-bold text-primary">Modules</h4>
-                                            <ul class=" px-2">
-                                                <li>Process safety Management meaning and the difference from personal safety</li>
-                                                <li>The role of process safety leadership</li>
-                                                <li>Organisational learning and sharing lessons learned</li>
-                                                <li> Management of change to effectively reduce risks to process and plant</li>
-                                                <li> Worker engagement benefits and limitations</li>
-                                                <li>Competence and the importance to process safety</li>
-                                                <li>Establishing a process safety management system</li>
-                                                <li>Risk management techniques used within the process industries</li>
-                                                <li>Asset management and maintenance strategies</li>
-                                                <li>Role and purpose and features of a permit-to-work system</li>
-                                                <li>Safe shift handover</li>
-                                                <li>Contractor management</li>
-                                                <li>Operating procedures</li>
-                                                <li>Safe start-up and shut-down</li>
-                                                <li>Safety critical performance standards</li>
-                                                <li>Utilities</li>
-                                                <li>Electricity/static electricity</li>
-                                                <li>Dangerous substances</li>    
-                                                <li>Reaction hazards</li>
-                                                <li>Bulk storage operations</li>
-                                                <li>Fire hazards</li>
-                                                <li>Fire and explosion control</li>
-                                                <li>Dust explosions</li>
-                                                <li>Emergency preparedness</li>
-                                            </ul>
-                                            <h4 class=" text-3xl font-bold text-primary">Target Audience</h4>
-                                            <p>This course is suitable for Managers, supervisors and safety professionals all around the world who work in process industries such as oil and gas, chemicals, plastics and pharmaceuticals</p>
-                                            <h4 class=" text-3xl font-bold text-primary capitalize ">Pre Course Preparation</h4>
-                                            <p>This is a technical course. It has no specified entry requirements but assumes a certain level of Health and Safety Knowledge.</p>
-                                            <h4 class=" text-3xl font-bold text-primary capitalize">Certification</h4>
-                                            <p>Delegates who successfully complete the 90 minute, 40 multiple choice exam, will receive NEBOSH Process Safety Management Certificate.</p>
+                                            <p>2 Days</p>
+                                            
                                             
  
                                             </div>
@@ -95,7 +60,7 @@
                                     
                                 </div>
                                 <h4 class=" text-3xl font-bold text-primary">Booking</h4>
-                                        <p>To arrange for your an IOSH Course from Protec Consulting, or request a no obligation quote, please call us on <span class=" text-primary font-bold"> +254 715 742 898</span> or <span class=" text-primary font-bold">email info.ea@weareprotecafrica.com</span></p>
+                                        <p>Please call us on <span class=" text-primary font-bold"> +254 715 742 898</span> or <span class=" text-primary font-bold">email info.ea@weareprotecafrica.com</span> to arrange for your Petrol Retail Course from Protec Consulting, or request a no obligation quote, </p>
                                         
                         </div>
                         
@@ -115,3 +80,11 @@
     </section>
    
 </template>
+
+
+<script>
+import CourseCategory from "~/components/Course/CourseCategory.vue"
+export default {
+    components: {CourseCategory}
+}
+</script>
