@@ -44,7 +44,7 @@
                                         </td>
                                     </tr>
                                     
-                                    <tr>
+                                    <!-- <tr>
                                         <td>IOSH Directing Safely</td>
                                         <td>1 Day</td>
                                         <td>Classroom</td>
@@ -71,7 +71,7 @@
                                             <nuxt-link to="">View Course Details</nuxt-link>
                                         </td>
                                     
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                                 
                             </table>

@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 
 const _b7e60fda = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages_about_index" */))
 const _73648896 = () => interopDefault(import('..\\pages\\category\\index.vue' /* webpackChunkName: "pages_category_index" */))
+const _7dbedfc0 = () => interopDefault(import('..\\pages\\contact\\index.vue' /* webpackChunkName: "pages_contact_index" */))
 const _2fef93d9 = () => interopDefault(import('..\\pages\\course\\index.vue' /* webpackChunkName: "pages_course_index" */))
 const _21593cf0 = () => interopDefault(import('..\\pages\\courses\\index.vue' /* webpackChunkName: "pages_courses_index" */))
 const _a1b22142 = () => interopDefault(import('..\\pages\\default\\index.vue' /* webpackChunkName: "pages_default_index" */))
@@ -14,6 +15,8 @@ const _4b683c51 = () => interopDefault(import('..\\pages\\courses\\coursecat\\in
 const _ed2a2588 = () => interopDefault(import('..\\pages\\courses\\safety_management\\index.vue' /* webpackChunkName: "pages_courses_safety_management_index" */))
 const _306b6fb1 = () => interopDefault(import('..\\pages\\courses\\specialised_courses\\index.vue' /* webpackChunkName: "pages_courses_specialised_courses_index" */))
 const _4d5bc90d = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\index.vue' /* webpackChunkName: "pages_courses_workplace_safety_index" */))
+const _e4fe46fe = () => interopDefault(import('..\\pages\\services\\fire_risk_audit_and_assessment.vue' /* webpackChunkName: "pages_services_fire_risk_audit_and_assessment" */))
+const _192c84e1 = () => interopDefault(import('..\\pages\\services\\health_and_safety.vue' /* webpackChunkName: "pages_services_health_and_safety" */))
 const _559e03bb = () => interopDefault(import('..\\pages\\courses\\coursecat\\courseId\\index.vue' /* webpackChunkName: "pages_courses_coursecat_courseId_index" */))
 const _e397b29c = () => interopDefault(import('..\\pages\\latest_news\\post\\blog-post-1.vue' /* webpackChunkName: "pages_latest_news_post_blog-post-1" */))
 const _5b2ea6b0 = () => interopDefault(import('..\\pages\\not_being\\coursedetails\\_id.vue' /* webpackChunkName: "pages_not_being_coursedetails__id" */))
@@ -36,9 +39,16 @@ const _58c39667 = () => interopDefault(import('..\\pages\\courses\\_construction
 const _27821446 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Management_Safety_Training_Scheme.vue' /* webpackChunkName: "pages_courses__construction safety_Site_Management_Safety_Training_Scheme" */))
 const _d4d33244 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Manager_Safety_Training_Scheme_(SMSTS)_Refresher.vue' /* webpackChunkName: "pages_courses__construction safety_Site_Manager_Safety_Training_Scheme_(SMSTS)_Refresher" */))
 const _2dd9dba6 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Safety_Plus_(SSP).vue' /* webpackChunkName: "pages_courses__construction safety_Site_Safety_Plus_(SSP)" */))
-const _89af1bc2 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Supervisor_Training_Scheme_(SSSTS).vue' /* webpackChunkName: "pages_courses__construction safety_Site_Supervisor_Training_Scheme_(SSSTS)" */))
+const _3f11557f = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Supervisor_Training_Scheme.vue' /* webpackChunkName: "pages_courses__construction safety_Site_Supervisor_Training_Scheme" */))
 const _9542aff0 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\Site_Supervisor_Training_Scheme_(SSSTS)_Refresher.vue' /* webpackChunkName: "pages_courses__construction safety_Site_Supervisor_Training_Scheme_(SSSTS)_Refresher" */))
+const _e913b868 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Construction Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Construction Safety Passport" */))
+const _7065a755 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Facility Management Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Facility Management Safety Passport" */))
+const _5d8b4be8 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Food and Drink Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Food and Drink Safety Passport" */))
+const _903e5f12 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Forecourts Safety Passport Renewal.vue' /* webpackChunkName: "pages_courses__safety passport_Forecourts Safety Passport Renewal" */))
+const _05dc4f36 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Fuel Depot Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Fuel Depot Safety Passport" */))
+const _be71d2f0 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Motor Manufacturing Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Motor Manufacturing Safety Passport" */))
 const _3e131d27 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Petrol_Retail_Safety_Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Petrol_Retail_Safety_Passport" */))
+const _d8ec3416 = () => interopDefault(import('..\\pages\\courses\\_safety passport\\Quarries Safety Passport.vue' /* webpackChunkName: "pages_courses__safety passport_Quarries Safety Passport" */))
 const _5234a854 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
@@ -124,6 +134,10 @@ export function createRouter() {
       component: _73648896,
       name: "category"
     }, {
+      path: "/contact",
+      component: _7dbedfc0,
+      name: "contact"
+    }, {
       path: "/course",
       component: _2fef93d9,
       name: "course"
@@ -163,6 +177,14 @@ export function createRouter() {
       path: "/courses/workplace_safety",
       component: _4d5bc90d,
       name: "courses-workplace_safety"
+    }, {
+      path: "/services/fire_risk_audit_and_assessment",
+      component: _e4fe46fe,
+      name: "services-fire_risk_audit_and_assessment"
+    }, {
+      path: "/services/health_and_safety",
+      component: _192c84e1,
+      name: "services-health_and_safety"
     }, {
       path: "/courses/coursecat/courseId",
       component: _559e03bb,
@@ -252,17 +274,45 @@ export function createRouter() {
       component: _2dd9dba6,
       name: "courses-construction safety-Site_Safety_Plus_(SSP)"
     }, {
-      path: "/courses/:construction safety/Site_Supervisor_Training_Scheme_(SSSTS)",
-      component: _89af1bc2,
-      name: "courses-construction safety-Site_Supervisor_Training_Scheme_(SSSTS)"
+      path: "/courses/:construction safety/Site_Supervisor_Training_Scheme",
+      component: _3f11557f,
+      name: "courses-construction safety-Site_Supervisor_Training_Scheme"
     }, {
       path: "/courses/:construction safety/Site_Supervisor_Training_Scheme_(SSSTS)_Refresher",
       component: _9542aff0,
       name: "courses-construction safety-Site_Supervisor_Training_Scheme_(SSSTS)_Refresher"
     }, {
+      path: "/courses/:safety passport/Construction Safety Passport",
+      component: _e913b868,
+      name: "courses-safety passport-Construction Safety Passport"
+    }, {
+      path: "/courses/:safety passport/Facility Management Safety Passport",
+      component: _7065a755,
+      name: "courses-safety passport-Facility Management Safety Passport"
+    }, {
+      path: "/courses/:safety passport/Food and Drink Safety Passport",
+      component: _5d8b4be8,
+      name: "courses-safety passport-Food and Drink Safety Passport"
+    }, {
+      path: "/courses/:safety passport/Forecourts Safety Passport Renewal",
+      component: _903e5f12,
+      name: "courses-safety passport-Forecourts Safety Passport Renewal"
+    }, {
+      path: "/courses/:safety passport/Fuel Depot Safety Passport",
+      component: _05dc4f36,
+      name: "courses-safety passport-Fuel Depot Safety Passport"
+    }, {
+      path: "/courses/:safety passport/Motor Manufacturing Safety Passport",
+      component: _be71d2f0,
+      name: "courses-safety passport-Motor Manufacturing Safety Passport"
+    }, {
       path: "/courses/:safety passport/Petrol_Retail_Safety_Passport",
       component: _3e131d27,
       name: "courses-safety passport-Petrol_Retail_Safety_Passport"
+    }, {
+      path: "/courses/:safety passport/Quarries Safety Passport",
+      component: _d8ec3416,
+      name: "courses-safety passport-Quarries Safety Passport"
     }, {
       path: "/",
       component: _5234a854,

@@ -35,14 +35,77 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                      <tr>
-                                        <td>Petrol Retail Safety Passport</td>
-                                        <td>2 Days</td>
-                                        <td>Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline"> 
-                                            <nuxt-link to="/courses/_safety passport/Petrol_Retail_Safety_Passport">View Course Details</nuxt-link>
+
+                                     <tr>
+                                        <td class=" md: w-2/5">Petrol Retail Safety Passport</td>
+                                        <td class=" md: w-1/5">2 Days</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Petrol_Retail_Safety_Passport">View</nuxt-link>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td class=" md: w-2/5">Petrol Retail - Forecourts Safety Passport Renewal/Update</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Forecourts Safety Passport Renewal">View</nuxt-link>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class=" md: w-2/5">Fuel Depot Safety Passport</td>
+                                        <td class=" md: w-1/5">2 Days</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Fuel Depot Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class=" md: w-2/5">Construction Safety Passport</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Construction Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" md: w-2/5">Facility Management Safety Passport</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Facility Management Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" md: w-2/5">Food & Drink Safety Passport</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Food and Drink Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" md: w-2/5">Quarries Safety Passport</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Quarries Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" md: w-2/5">Motor Manufacturing Safety Passport</td>
+                                        <td class=" md: w-1/5">1 Day</td>
+                                        <td class=" md: w-1/5">Classroom</td>
+                                        <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
+                                            <nuxt-link to="/courses/_safety passport/Motor Manufacturing Safety Passport">View</nuxt-link>
+                                        </td>
+                                    </tr>
+                                    
+                                    
+                                    
+                                    
                                     
                                    
                                 </tbody>

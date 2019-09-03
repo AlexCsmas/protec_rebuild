@@ -40,11 +40,11 @@
                                         <td>5 Days</td>
                                         <td>Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline"> 
-                                            <nuxt-link to="/courses/_construction safety">View Course Details</nuxt-link>
+                                            <nuxt-link to="/courses/_construction safety/Site_Management_Safety_Training_Scheme">View Course Details</nuxt-link>
                                         </td>
                                     </tr>
                                     
-                                    <tr>
+                                    <!-- <tr>
                                         <td>Site Manager Safety Training Scheme (SMSTS) Refresher</td>
                                         <td>2 Days</td>
                                         <td>Classroom</td>
@@ -52,26 +52,26 @@
                                             <nuxt-link to="/courses/_construction safety">View Course Details</nuxt-link>
                                         </td>
                                         
-                                    </tr>
+                                    </tr> -->
 
                                     <tr>
                                         <td>Site Supervisor Training Scheme (SSSTS)</td>
                                         <td>2 Day</td>
                                         <td>Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline">
-                                            <nuxt-link to="/courses/_construction safety">View Course Details</nuxt-link>
+                                            <nuxt-link to="/courses/_construction safety/Site_Supervisor_Training_Scheme">View Course Details</nuxt-link>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <!-- <tr>
                                         <td>Site Supervisor Training Scheme (SSSTS) Refresher</td>
                                         <td>1 Day</td>
                                         <td>Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline">
                                             <nuxt-link to="/courses/_construction safety">View Course Details</nuxt-link>
                                         </td>
-                                    </tr>
+                                    </tr> -->
 
-                                    <tr>
+                                    <!-- <tr>
                                         <td>Site Safety Plus (SSP)</td>
                                         <td>1 Day</td>
                                         <td>Classroom</td>
@@ -115,7 +115,7 @@
                                             <nuxt-link to="">View Course Details</nuxt-link>
                                         </td>
                                     
-                                    </tr>
+                                    </tr> -->
                                 </tbody>
                                 
                             </table>
