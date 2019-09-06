@@ -26,6 +26,8 @@ const _2ccb1c20 = () => interopDefault(import('..\\pages\\courses\\safety_manage
 const _1654fd28 = () => interopDefault(import('..\\pages\\courses\\safety_management\\_IOSH\\working_safely.vue' /* webpackChunkName: "pages_courses_safety_management__IOSH_working_safely" */))
 const _b3442072 = () => interopDefault(import('..\\pages\\courses\\safety_management\\_NEBOSH\\NEBOSH_HSE_Certificate_in_Process_Safety_Management.vue' /* webpackChunkName: "pages_courses_safety_management__NEBOSH_NEBOSH_HSE_Certificate_in_Process_Safety_Management" */))
 const _2df123f8 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Fire Safety\\Practical_Fire_Safety_Awareness_Training.vue' /* webpackChunkName: "pages_courses_workplace_safety__Fire Safety_Practical_Fire_Safety_Awareness_Training" */))
+const _ae742a78 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_First Aid\\level_1.vue' /* webpackChunkName: "pages_courses_workplace_safety__First Aid_level_1" */))
+const _ae57fb76 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_First Aid\\level_2.vue' /* webpackChunkName: "pages_courses_workplace_safety__First Aid_level_2" */))
 const _1045ca9d = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\Introduction_To_Health_And_Safety.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_Introduction_To_Health_And_Safety" */))
 const _1effb244 = () => interopDefault(import('..\\pages\\category\\_id\\index.vue' /* webpackChunkName: "pages_category__id_index" */))
 const _8e0f8e3e = () => interopDefault(import('..\\pages\\course\\_id\\index.vue' /* webpackChunkName: "pages_course__id_index" */))
@@ -221,6 +223,14 @@ export function createRouter() {
       path: "/courses/workplace_safety/:Fire Safety/Practical_Fire_Safety_Awareness_Training",
       component: _2df123f8,
       name: "courses-workplace_safety-Fire Safety-Practical_Fire_Safety_Awareness_Training"
+    }, {
+      path: "/courses/workplace_safety/:First Aid/level_1",
+      component: _ae742a78,
+      name: "courses-workplace_safety-First Aid-level_1"
+    }, {
+      path: "/courses/workplace_safety/:First Aid/level_2",
+      component: _ae57fb76,
+      name: "courses-workplace_safety-First Aid-level_2"
     }, {
       path: "/courses/workplace_safety/:Health_and_Safety_at_Work/Introduction_To_Health_And_Safety",
       component: _1045ca9d,

@@ -5,7 +5,7 @@
 
             <!-- title -->
 			<div class="text-center px-6 py-12 bg-gray-100 border-b">
-				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">Petrol Retail Safety Passport</h1>
+				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">Motor Manufacturing Safety Passport	</h1>
 			</div>
 			<!-- /title -->
 
@@ -20,12 +20,22 @@
                         <div>
                             <!--Title-->
 
+                           
+
                                 <div>
-                                    <p class="pt-2 pb-6">This qualification is designed for people with safety responsibilities in Process Industries e.g Oil & Gas, Chemicals, Plastics and Pharmaceuticals.<br>
 
-                                    This course is designed to equip workers with a broad understanding of the accepted principals and recognized industrial practices for the management of Process risk. <br>
+                                    <h3 class=" text-2xl font-bold text-primary "> Course aim</h3>
 
-                                    It will also ensure that they can organise and contribute to the control of Process Safety Hazards.</p>
+                                           
+                                            <div class=" -pl-3 pb-8">
+                                                <li class="pl-3 ">To provide basic information and areas of responsibility for health, safety and the environment.</li>
+                                                <li class="pl-3 ">To understand the implications of hazard recognition/risk assessment and effects on individuals and the employer.</li>
+                                                <li class="pl-3 ">To demonstrate how individual behaviour can help reduce accidents.</li>
+                                            </div>
+
+                                     
+
+                                          
                                 </div>
 
                                 <ul class="flex">
@@ -46,14 +56,71 @@
                                     <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
 
                                         <div class=""> 
-                                        
+
+                                            <h3 class=" text-2xl font-bold text-primary">Learning Outcome</h3>
+
+                                            <p>On completion of the course delegates will have the knowledge to:</p>
+
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Demonstrate their understanding of the subjects by successfully completing each module assessment paper</li>
+                                                <li class="pl-3 ">Appreciate how they personally can influence good standards within health, safety & the environment</li>
+                                                <li class="pl-3 ">Understand the value of risk assessment and have the knowledge to recognise when change to a generic assessment is required</li>
+                                                 <li class="pl-3 ">Understand the common hazards associated with work.</li>
+                                            </div>
+
+                                                                                   
+                                            <h4 class=" text-3xl font-bold text-primary pt-8">Coruse Modules</h4>
                                             
-                                            <h4 class=" text-3xl font-bold text-primary">Duration</h4>
-                                            <p>2 Days</p>
+
+                                           
+
+                                            <h4 class=" text-2xl text-primary">Module 1 – Provision and use of work equipment</h4>
+                                            <p>Will give delegates an understanding of:- work equipment, maintenance, training, dangerous parts of machinery and controls and control systems.</p>
+
+                                            <h4 class=" text-2xl text-primary">Module 2 – Machine hazards</h4>
+                                            
+                                            <p>This module examines specific hazards, control measures, mechanical handling, lifting operations and lifting equipment regulations (LOLER).</p>
+
+
+                                            <h4 class=" text-2xl text-primary">Module 3 – Safe systems of work/permits to work</h4>
+
+                                            The session will give delegates an understanding of safe systems of work / permits to work relating to hot work, confined spaces, trenches and pits, working at height, high voltage equipment, stored pressure, automatic machinery and Construction Regulations.
+
+                                             <h4 class=" text-2xl text-primary">Module 4 – Environmental management</h4>
+                                            
+                                            <p>The session covers current and future environmental requirements, safe storage and marking, waste control hierarchies and emergency planning in the event of problems.</p>
+
+                                            <h4 class=" text-2xl text-primary">Module 5 – Control of contractors</h4>
+                                            
+                                            <p>The session gives delegates an understanding of:- 
+                                             <div class=" -pl-3">
+                                                <li class="pl-3 ">approval systems</li>
+                                                <li class="pl-3 ">site induction</li>
+                                                <li class="pl-3 ">site access</li>
+                                                <li class="pl-3 ">behaviour</li>
+                                                <li class="pl-3 ">housekeeping</li>
+                                                <li class="pl-3 ">smoking</li>
+                                                <li class="pl-3 ">drugs/alcohol</li>
+                                                <li class="pl-3 ">smoking</li>
+                                                <li class="pl-3 ">ppe and transport</li>
+                                                
+                                               
+                                            </div>   
+                                             
+
+                                            
+
+                                            
+
+
+                                           
+                                    
+                                            
+
                                             
                                             
  
-                                            </div>
+                                        </div>
                                         
                                         
                                     </table>

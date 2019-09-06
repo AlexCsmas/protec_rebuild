@@ -5,7 +5,7 @@
 
             <!-- title -->
 			<div class="text-center px-6 py-12 bg-gray-100 border-b">
-				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">Petrol Retail Safety Passport</h1>
+				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">Quarries Safety Passport</h1>
 			</div>
 			<!-- /title -->
 
@@ -20,12 +20,22 @@
                         <div>
                             <!--Title-->
 
+                           
+
                                 <div>
-                                    <p class="pt-2 pb-6">This qualification is designed for people with safety responsibilities in Process Industries e.g Oil & Gas, Chemicals, Plastics and Pharmaceuticals.<br>
 
-                                    This course is designed to equip workers with a broad understanding of the accepted principals and recognized industrial practices for the management of Process risk. <br>
+                                    <h3 class=" text-2xl font-bold text-primary "> Course aim</h3>
 
-                                    It will also ensure that they can organise and contribute to the control of Process Safety Hazards.</p>
+                                           
+                                            <div class=" -pl-3 pb-8">
+                                                <li class="pl-3 ">To build on the basic health and safety information from the Core Day programme by identifying high risk tasks and their control found within the Mineral Extraction and Products Industry</li>
+                                                <li class="pl-3 ">To understand the implications of personal injury, cost to the business and job security</li>
+                                                <li class="pl-3 ">To encourage delegates to participate in identifying hazards and control based on their personal experience.</li>
+                                            </div>
+
+                                     
+
+                                          
                                 </div>
 
                                 <ul class="flex">
@@ -46,14 +56,72 @@
                                     <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
 
                                         <div class=""> 
-                                        
+
+                                            <h3 class=" text-2xl font-bold text-primary">Learning Outcome</h3>
+
+                                            <p>On completion of the course delegates will have the knowledge to:</p>
+
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Demonstrate their understanding of the subjects by successfully attaining an 80% score for each of the two assessment papers</li>
+                                                <li class="pl-3 ">Appreciate how they personally can influence good standards when working within the sector</li>
+                                                <li class="pl-3 ">Clearly understand the need to inform local management of any accident or unplanned event whether personally affected or not.</li>
+                                                 <li class="pl-3 ">Understand the value of risk assessment individuals will have the knowledge to recognise when change to a generic assessment is required.</li>
+                                            </div>
+
+                                                                                   
+                                            <h4 class=" text-3xl font-bold text-primary pt-8">Coruse Modules</h4>
                                             
-                                            <h4 class=" text-3xl font-bold text-primary">Duration</h4>
-                                            <p>2 Days</p>
+
+                                           
+
+                                            <h4 class=" text-2xl text-primary">High risk tasks involved with operations</h4>
+                                            <p>Mobile plant is a major cause of serious injury within the industry; the session will examine with delegates cause of such accidents as well how high risks are controlled and how they as individuals can contribute.</p>
+                                            <h4 class=" text-2xl text-primary">Access and working at height</h4>
+                                            
+                                             <p>Many serious injuries have been sustained when falling relatively low heights. Falls from greater heights often result in death or major injuries.</p>
+
+
+                                            <h4 class=" text-2xl text-primary">Maintenance high risk operations</h4>
+
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Safety precautions during normal, maintenance and breakdown work</li>
+                                                <li class="pl-3 ">Fencing</li>
+                                                <li class="pl-3 ">Isolation / lock-out procedures</li>
+                                                <li class="pl-3 ">Permit to Work and example applications:</li>
+                                                <li class="pl-3 ">Confined spaces, crusher clearance, conveyor tensioners</li>
+                                            </div>
+
+                                            <h4 class=" text-2xl text-primary">Health risks working in dusts, diseases, noise, vibration, and dehydration</h4>
+
+                                            
+                                    
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Control risks measures including PPE</li>
+                                               
+                                            </div>
+
+                                            <h4 class=" text-2xl text-primary">Environmental considerations</h4>
+
+
+                                           
+                                    
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Public perception of environmental impacts</li>
+                                                <li class="pl-3 ">Powers of inspectors / enforcing authorities and penalties</li>
+                                                <li class="pl-3 ">Precautions to avoid spillage and groundwater contamination</li>
+                                                <li class="pl-3 ">Waste segregation and disposal</li>
+                                                <li class="pl-3 ">Air pollution from dust and noise</li>
+                                                <li class="pl-3 ">Ecology and archaeology</li>
+                                                
+                                                
+                                                
+                                               
+                                            </div>
+
                                             
                                             
  
-                                            </div>
+                                        </div>
                                         
                                         
                                     </table>

@@ -23,19 +23,17 @@
                         <a class="underline mx-2" href="#">Fire Safety</a> Courses 
                         </h1>
                         <!--Card-->
-                        <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-                                         
+                        <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">           
                             <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
                                 <thead>
                                     <tr class=" text-left ">
                                         <th data-priority="1">Course Name</th>
                                         <th data-priority="2">Duration</th>
                                         <th data-priority="3">Type of Delivery</th>
-                                       
-                                        
+    
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <!-- <tbody>
                                     <tr>
                                         <td class=" md: w-2/5">Basic Fire Fighting</td>
                                         <td class=" md: w-1/5">1 Day</td>
@@ -53,19 +51,19 @@
                                         <td class=" md: w-1/5">1 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
                                    
-                                </tbody>
+                                </tbody> -->
                                 <tbody>
                                     <tr>
                                         <td class=" md: w-2/5">Practical Fire Safety Awareness</td>
                                         <td class=" md: w-1/5">1 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Fire Safety/Practical_Fire_Safety_Awareness_Training">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
@@ -101,7 +99,7 @@
                                         <td class=" md: w-1/5">2 Days</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline  md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_First Aid/level_1">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
@@ -113,16 +111,15 @@
                                         <td class=" md: w-1/5">3 Days</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_First Aid/level_2">View</nuxt-link>
                                         </td>
                                     </tr>
                                       
                                     
                                    
                                 </tbody>
-                                
+                            
                             </table>
-							
                         </div>
                         <!--/Card-->
 

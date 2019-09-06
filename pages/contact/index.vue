@@ -13,7 +13,44 @@
 			</div>
 			<!-- /title -->
 
-            <div class=" md:flex flex-row">
+            <div class=" mx-auto lg:px-16">
+
+                <div class=" md:flex flex-row ">
+
+                    <div class="w-full md:w-1/3 ">
+                    <div class=" bg-primary p-8 text-white">
+                        <p class="text-white font-bold mb-1">
+							Protec Consulting East Africa Limited
+						</p>
+
+                        <div class=" py-4 ">
+
+                             <p class="text-white font-bold mb-1">
+							Location
+                            </p>
+                            <p class="text-sm mb-2">
+                                Westlands Road,<br>							
+                                Madonna House, ,<br>	3rd Floor, Room 314<br>
+                                Westlands
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <p class="text-white font-bold mb-1">
+                                Contacts
+                            </p>
+                            <p class="text-sm mb-2">
+                                E: info.ea@weareprotecafrica.com<br>							
+                                M: +254 715 742 898<br>	
+             
+                            </p>
+                        </div>
+                       
+                    </div>
+
+
+                </div> <!-- End of Column --> 
                 
                 <div class="w-full md: w-2/3" >
                     <div class="bg-gray-200">
@@ -70,57 +107,14 @@
                                 </svg>
                             </button>
 
-
-
-
                         </div>
 
                       <!-- End of Form -->              
                     </div>
-                </div>    
+                </div>   <!-- End of Column --> 
 
+                </div> <!-- End of Row -->
 
-                <div class="w-full md:w-1/3 ">
-                    <div class=" bg-primary p-8 text-white">
-                        <p class="text-white font-bold mb-1">
-							Protec Consulting East Africa Limited
-						</p>
-
-                        <div class=" py-4 ">
-
-                             <p class="text-white font-bold mb-1">
-							Location
-                            </p>
-                            <p class="text-sm mb-2">
-                                Westlands Road,<br>							
-                                Madonna House, ,<br>	3rd Floor, Room 314<br>
-                                Westlands
-                            </p>
-
-                        </div>
-
-                        <div>
-                            <p class="text-white font-bold mb-1">
-                                Contacts
-                            </p>
-                            <p class="text-sm mb-2">
-                                E: info.ea@weareprotecafrica.com<br>							
-                                M: +254 715 742 898<br>	
-                            
-                                
-                            </p>
-                        </div>
-                       
-
-                         
-                    </div>
-
-                   
-                       
-                   
-                </div>
-
-                
                       
             </div>
 

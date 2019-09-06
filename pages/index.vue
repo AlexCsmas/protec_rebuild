@@ -52,33 +52,33 @@ documentation and safety culture.</p>
   
           </div> <!--End of Services Section -->
  
-        <div class="bg-white p-12 py-24">
+        <div class="bg-white p-12 py-24 ">
 				
-            <div class="max-w-3xl mx-auto text-center mb-12">
+            <div class="max-w-3xl mx-auto text-center mb-12 ">
               <h2 class="font-black leading-tight text-xl md:text-5xl mb-4">About Us</h2>
                 
             </div>
       
             <div class="container mx-auto">
               
-              <div class="flex flex-wrap justify-center items-center">
+              <div class="flex flex-wrap justify-center items-center text-justify">
 
-                  <div class="w-full lg:flex-1 max-w-2xl lg:pl-12 text-gray-800">
-                  <p class="text-xl mb-3">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</p>
-                  <p class="text-xl mb-3"> We offer a wide range of both generic and specific Occupational health, Safety, environmental and quality management systems courses and consultancy services via Protec Consulting and offer the provision of hazardous PPE and Decontamination Shelters via Protec Equipment.</p>
-                <p class="text-xl mb-3">
-                  Our aim is to offer our clients quick yet quality services; from individuals to large businesses by enhancing staff skill set and performance. Our team are dedicated to helping you from the first conversation through to course or service completion. </p>
-                  <p class="text-xl mb-3">
-                  Protec Group Africa aims to improve your business performance and returns on investments through globally recognised qualifications, bespoke training programs and sector-specific consultancy services regardless of your client size</p>
-    
+                  <div class="w-full lg:flex-1 lg:pl-12 text-gray-800  ">
+                      <p class="text-xl mb-3">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</p>
+                      <p class="text-xl mb-3"> We offer a wide range of both generic and specific Occupational health, Safety, environmental and quality management systems courses and consultancy services via Protec Consulting and offer the provision of hazardous PPE and Decontamination Shelters via Protec Equipment.</p>
+                    <p class="text-xl mb-3">
+                      Our aim is to offer our clients quick yet quality services; from individuals to large businesses by enhancing staff skill set and performance. Our team are dedicated to helping you from the first conversation through to course or service completion. </p>
+                      <p class="text-xl mb-3">
+                      Protec Group Africa aims to improve your business performance and returns on investments through globally recognised qualifications, bespoke training programs and sector-specific consultancy services regardless of your client size</p>
+        
                   
-              </div>
+                    </div>
                 
-              <div class="mb-12 lg:mb-0 w-full lg:w-4/12 text-right">
+              <!-- <div class="mb-12 lg:mb-0 w-full lg:w-4/12 text-right">
                   <div class="bg-white p-4 rounded-lg shadow-lg w-full">
                     <img src="https://images.unsplash.com/photo-1552879890-3a06dd3a06c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=822&q=80" class="w-full h-auto object-cover rounded">
                   </div>
-              </div>
+              </div> -->
                 
               </div>
       

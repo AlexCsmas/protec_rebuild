@@ -5,7 +5,7 @@
 
             <!-- title -->
 			<div class="text-center px-6 py-12 bg-gray-100 border-b">
-				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">Petrol Retail Safety Passport</h1>
+				<h1 class="font-display-italic font-extrabold text-5xl md:text-4xl leading-none py-4">FOOD & DRINK SAFETY PASSPORT</h1>
 			</div>
 			<!-- /title -->
 
@@ -20,12 +20,22 @@
                         <div>
                             <!--Title-->
 
+                           
+
                                 <div>
-                                    <p class="pt-2 pb-6">This qualification is designed for people with safety responsibilities in Process Industries e.g Oil & Gas, Chemicals, Plastics and Pharmaceuticals.<br>
 
-                                    This course is designed to equip workers with a broad understanding of the accepted principals and recognized industrial practices for the management of Process risk. <br>
+                                    <h3 class=" text-2xl font-bold text-primary "> Course aim</h3>
 
-                                    It will also ensure that they can organise and contribute to the control of Process Safety Hazards.</p>
+                                            <p>Aimed at contractors who work in food and drink manufacturing, the SPA Passport food and drink training programme focuses on hygiene and food safety, specific environmental issues and health and safety practices.</p>
+
+                                            <div class=" -pl-3 pb-8">
+                                                <li class="pl-3 ">To provide information and training relevant to the food and drink industry sector in respect of food hygiene, environmental concerns and health and safety so as to support the continued improvement of such standards throughout the sector.</li>
+                                                <li class="pl-3 ">To understand the implications for cost, business, job security and risk of injury if concerns for hygiene, environment and health and safety are not properly considered</li>
+                                            </div>
+
+                                     
+
+                                          
                                 </div>
 
                                 <ul class="flex">
@@ -46,14 +56,34 @@
                                     <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
 
                                         <div class=""> 
-                                        
-                                            
-                                            <h4 class=" text-3xl font-bold text-primary">Duration</h4>
-                                            <p>2 Days</p>
+
+                                            <h3 class=" text-2xl font-bold text-primary">Learning Outcome</h3>
+
+                                            <p>On completion of the course delegates will have the knowledge to:</p>
+
+                                            <div class=" -pl-3">
+                                                <li class="pl-3 ">Compare injury incident rates across some industry sectors</li>
+                                                <li class="pl-3 ">Understand the importance of training, awareness and good personal behaviour in reducing potential for harm</li>
+                                                <li class="pl-3 ">Recognise the implications for cost, job security and risk of injury if areas of concern are not addressed and controlled</li>
+                                                 <li class="pl-3 ">Understand the three main areas of concern as food damage, environmental damage and people damage.</li>
+                                            </div>
+
+                                                                                   
+                                            <h4 class=" text-3xl font-bold text-primary pt-8">Module 1 – Food protection</h4>
+                                            <p>Will give delegates an understanding of the potential sources and types of food contamination, sources and effects of contamination, safe working practices to eliminate or reduce risk, the importance of protective clothing and good personal hygiene.</p>
+
+                                            <h4 class=" text-3xl font-bold text-primary">Module 2 – Environmental protection</h4>
+                                            <p>This module examines what makes a safe place of work, safe behaviour, safe access and exits, safety signs, temperature, lighting, housekeeping and welfare facilities, slips and trips, reporting failures and defects, safe work at height, excavations and confined spaces.
+</p>
+
+                                            <h4 class=" text-3xl font-bold text-primary">Module 3 – Health and safety</h4>
+                                            <p>This module provides an awareness and understanding of the hazards to health and safety particularly relevant to the food and drink sector and the control measures necessary to such risks to continually reducing levels.
+</p>
+
                                             
                                             
  
-                                            </div>
+                                        </div>
                                         
                                         
                                     </table>
