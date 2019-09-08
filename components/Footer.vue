@@ -9,7 +9,7 @@
                     <strong class="font-black text-lg md:text-3xl ">Looking for a Bespoke Solution for your organization?</strong>
                   </div>
                   <div class="text-center lg:text-right w-full mt-6 md:w-auto">
-                    <a href="#" class="inline-block bg-white text-primary py-2 px-5 text-2xl rounded-r rounded-l hover:shadow-lg">Get in touch!</a>
+                    <nuxt-link to="/contact" class="inline-block bg-white font-condensed text-primary py-2 px-5 text-2xl rounded-r rounded-l hover:shadow-lg hover:bg-secondary hover:text-white">Get in touch!</nuxt-link>
                   </div>
                 </div>
         

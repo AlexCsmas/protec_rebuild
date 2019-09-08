@@ -1,7 +1,7 @@
 <template>
     <body class="antialiased">
 
-      <div class="w-full bg-blue-600">
+      <div class="w-full bg-primary ">
 
           <div class="w-full h-full relative flex items-center justify-center py-32">
     
@@ -10,7 +10,7 @@
             <div class="px-6 max-w-4xl relative z-10 text-center">
               <h1 class="text-3xl md:text-5xl font-black text-white mb-2">WE OFFER HIGH QUALITY PRACTICAL SERVICES</h1>
               <h2 class="text-lg md:text-2xl font-condensed text-white leading-tight mb-8"> from individuals to large businesses across the Region</h2>
-              <a href="#" class="inline-block bg-white font-condensed text-primary py-2 px-5 text-2xl rounded-r rounded-l hover:shadow-lg hover:bg-blue-600 hover:text-white">Learn More</a>
+               <nuxt-link to="/services" class="inline-block bg-white font-condensed text-primary py-2 px-5 text-2xl rounded-r rounded-l hover:shadow-lg hover:bg-secondary hover:text-white">Learn More</nuxt-link>
 
               
             </div>
@@ -26,28 +26,52 @@
                     according to specifications and priorities
                 </h3>
 
-              </div>
+            </div>
 
             <div class="container mx-auto">
 
-                <div class="flex flex-row justify-center items-center">
-                    <div class="flex items-center">
-                      <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/consulting_cweabm.svg" class="w-24 h-24 object-cover">
-                      <div class="pl-5">
-                      <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Consultancy Services</h4>
-                      <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">The service we offer will develop your current systems, give guidance on improving your
-documentation and safety culture.</p>
-                    </div>
-                    <div class="flex items-center">
-                        <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/education_t1vl8p.svg" class="w-24 h-24 object-cover">
-                        <div class="pl-5">
-                            <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Training Services</h4>
-                            <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">We are nationally accredited in offering training and Health & Safety operating in South Africa, Nigeria, Kenya, New Zealand and Australia</p>
+                <div class=" flex flex-col md:flex-row md:items-center md:justify-between md:mx-24">
+                  <div class="flex flex-col md:flex-row">
+
+                      <div class=" flex items-center justify-center ">
+                        <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/consulting_cweabm.svg" class="w-24 h-24 object-cover">
                       </div>
+                       
+                       <div class="mx-8 flex-col text-center md:text-left md:flex-row">
+
+                          <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Consultancy Services</h4>
+                          <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">The service we offer will develop your current systems, give guidance on improving your
+                          documentation and safety culture.</p>                         
+                         
+                       </div>
                     </div>
+
+
+                    <!-- Training --->
+
+
+                    <div class="flex flex-col md:flex-row mt-10 md:mt-0">
+
+                      <div class=" flex items-center justify-center ">
+                        <img src="https://res.cloudinary.com/alexoc/image/upload/v1563352504/SVG%20Icons/education_t1vl8p.svg" class="w-24 h-24 object-cover">
+                      </div>
+                       
+                       <div class="mx-8 flex-col text-center md:text-left md:flex-row">
+
+                          <h4 class="font-black text-base md:text-lg text-gray-900 leading-tight mb-2">Training Services</h4>
+                          <p class="text-xs md:text-xl text-gray-700 leading-snug max-w-sm">We are nationally accredited in offering training and Health & Safety operating in South Africa, Nigeria, Kenya, New Zealand and Australia</p>                         
+                         
+                       </div>
+                    </div>
+
+
+                    <!--End of Training -->
+
+
                   
-                    </div>
-                    </div>
+                </div>
+
+                
                 </div>
   
           </div> <!--End of Services Section -->

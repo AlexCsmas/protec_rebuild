@@ -14,21 +14,19 @@
         <nav>
           <ul class="lg:flex items-center justify-between text-gray-700 pt-4 lg:pt-0 ">
 
-              <nuxt-link to="/about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">About Us</nuxt-link>
+              <nuxt-link to="/about" class="mx-2 lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">About Us</nuxt-link>
 
-              <nuxt-link to="/services" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">Services</nuxt-link>
+              <nuxt-link to="/services" class="mx-2 lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">Services</nuxt-link>
 
-              <nuxt-link to="/courses" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">Courses</nuxt-link>
+              <nuxt-link to="/courses" class="mx-2 lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">Courses</nuxt-link>
 
               <!-- <nuxt-link to="/latest_news" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 text-center text-white md:text-xl">Latest News</nuxt-link>
   -->
               <!-- <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 lg:mb-0 mb-2 text-center" href="#">Support</a> -->
 
-              <nuxt-link to="/contact" class="hidden md:block bg-secondary text-white py-2 px-4 text-xs md:text-xl rounded-r rounded-l ml-3 hover: shadow-xl">Contact Us</nuxt-link>
+              
 
-
-
-
+              <nuxt-link to="/contact"><a class="mx-2 bg-secondary text-white lg:p-4 py-3 rounded-r rounded-l md:text-xl block border-b-2 border-transparent hover:border-gray-300 lg:mb-0 mb-2 text-center" href="#">Contact Us</a></nuxt-link>
 
           </ul>
         </nav>
@@ -38,3 +36,23 @@
 
       </header>
 </template>
+
+<script>
+export default {
+  head () {
+    return {
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap' }
+      ]
+    }
+  }
+}
+</script>
+
+<style>
+
+    #menu-toggle:checked + #menu {
+        display: block;
+    }
+
+</style>
