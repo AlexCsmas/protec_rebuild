@@ -149,7 +149,7 @@
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/manual-handling">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
@@ -161,7 +161,7 @@
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/wah">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
@@ -173,7 +173,7 @@
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/Occupational Noise Awareness">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
@@ -185,98 +185,39 @@
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/havs">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
                                    
                                 </tbody>
-                                <tbody>
-                                    <tr class=" w-full ">
-                                        <td class=" md: w-2/5">Lock-­Out Tag-­Out</td>
-                                        <td class=" md: w-1/5">1/2 Day</td>
-                                        <td class=" md: w-1/5">Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
-                                        </td>
-                                    </tr>
-                                    
-                                   
-                                </tbody>
+                                
                                 <tbody>
                                     <tr class=" w-full ">
                                         <td class=" md: w-2/5">Accident Investigation</td>
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/Accident Investigation">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
                                    
                                 </tbody>
-                                <tbody>
-                                    <tr class=" w-full ">
-                                        <td class=" md: w-2/5">Safety Inspection and Audit</td>
-                                        <td class=" md: w-1/5">1/2 Day</td>
-                                        <td class=" md: w-1/5">Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
-                                        </td>
-                                    </tr>
-                                    
-                                   
-                                </tbody>
-                                <tbody>
-                                    <tr class=" w-full ">
-                                        <td class=" md: w-2/5">Introduction to Health and Safety</td>
-                                        <td class=" md: w-1/5">1/2 Day</td>
-                                        <td class=" md: w-1/5">Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
-                                        </td>
-                                    </tr>
-                                    
-                                   
-                                </tbody>
+                               
                                 <tbody>
                                     <tr class=" w-full ">
                                         <td class=" md: w-2/5">Emergency First Aid at Work</td>
                                         <td class=" md: w-1/5">1/2 Day</td>
                                         <td class=" md: w-1/5">Classroom</td>
                                         <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
+                                            <nuxt-link to="/courses/workplace_safety/_Health_and_Safety_at_Work/e-faw">View</nuxt-link>
                                         </td>
                                     </tr>
                                     
                                    
                                 </tbody>
-                                <tbody>
-                                    <tr class=" w-full ">
-                                        <td class=" md: w-2/5">Intermediate Health and Safety for
-Supervisors</td>
-                                        <td class=" md: w-1/5">3 Days</td>
-                                        <td class=" md: w-1/5">Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
-                                        </td>
-                                    </tr>
-                                    
-                                   
-                                </tbody>
-                                <tbody>
-                                    <tr class=" w-full ">
-                                        <td class=" md: w-2/5">Advanced Health and Safety for 
-Managers</td>
-                                        <td class=" md: w-1/5">4 Days</td>
-                                        <td class=" md: w-1/5">Classroom</td>
-                                        <td class=" bg-primary py-2 text-center text-white hover:underline md: w-1/5"> 
-                                            <nuxt-link to="/courses/workplace_safety">View</nuxt-link>
-                                        </td>
-                                    </tr>
-                                    
-                                   
-                                </tbody>
+                               
                                 
                                 
                             </table>

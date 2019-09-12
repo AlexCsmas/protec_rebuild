@@ -7,7 +7,6 @@
                <nuxt-link to="/courses/_safety passport" class=" text-white py-1">Safety Passport Schemes Courses</nuxt-link>
                <nuxt-link to="/courses/workplace_safety" class=" text-white py-1">Workplace Safety Training Courses</nuxt-link>
                <nuxt-link to="/courses/specialised_courses" class=" text-white py-1">Specialised Courses</nuxt-link>
-               
         </ul>
     </div>
 </template>

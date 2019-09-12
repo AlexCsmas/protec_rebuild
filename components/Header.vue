@@ -24,8 +24,6 @@
   -->
               <!-- <a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-gray-300 lg:mb-0 mb-2 text-center" href="#">Support</a> -->
 
-              
-
               <nuxt-link to="/contact"><a class="mx-2 bg-secondary text-white lg:p-4 py-3 rounded-r rounded-l md:text-xl block border-b-2 border-transparent hover:border-gray-300 lg:mb-0 mb-2 text-center" href="#">Contact Us</a></nuxt-link>
 
           </ul>

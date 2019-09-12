@@ -28,7 +28,12 @@ const _b3442072 = () => interopDefault(import('..\\pages\\courses\\safety_manage
 const _2df123f8 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Fire Safety\\Practical_Fire_Safety_Awareness_Training.vue' /* webpackChunkName: "pages_courses_workplace_safety__Fire Safety_Practical_Fire_Safety_Awareness_Training" */))
 const _ae742a78 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_First Aid\\level_1.vue' /* webpackChunkName: "pages_courses_workplace_safety__First Aid_level_1" */))
 const _ae57fb76 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_First Aid\\level_2.vue' /* webpackChunkName: "pages_courses_workplace_safety__First Aid_level_2" */))
-const _1045ca9d = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\Introduction_To_Health_And_Safety.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_Introduction_To_Health_And_Safety" */))
+const _8a469afc = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\Accident Investigation.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_Accident Investigation" */))
+const _41b28f73 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\e-faw.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_e-faw" */))
+const _082a11f2 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\havs.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_havs" */))
+const _52f317ea = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\manual-handling.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_manual-handling" */))
+const _a5c3e494 = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\Occupational Noise Awareness.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_Occupational Noise Awareness" */))
+const _4a048d5d = () => interopDefault(import('..\\pages\\courses\\workplace_safety\\_Health_and_Safety_at_Work\\wah.vue' /* webpackChunkName: "pages_courses_workplace_safety__Health_and_Safety_at_Work_wah" */))
 const _1effb244 = () => interopDefault(import('..\\pages\\category\\_id\\index.vue' /* webpackChunkName: "pages_category__id_index" */))
 const _8e0f8e3e = () => interopDefault(import('..\\pages\\course\\_id\\index.vue' /* webpackChunkName: "pages_course__id_index" */))
 const _aebb8ff4 = () => interopDefault(import('..\\pages\\courses\\_construction safety\\index.vue' /* webpackChunkName: "pages_courses__construction safety_index" */))
@@ -232,9 +237,29 @@ export function createRouter() {
       component: _ae57fb76,
       name: "courses-workplace_safety-First Aid-level_2"
     }, {
-      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/Introduction_To_Health_And_Safety",
-      component: _1045ca9d,
-      name: "courses-workplace_safety-Health_and_Safety_at_Work-Introduction_To_Health_And_Safety"
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/Accident Investigation",
+      component: _8a469afc,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-Accident Investigation"
+    }, {
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/e-faw",
+      component: _41b28f73,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-e-faw"
+    }, {
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/havs",
+      component: _082a11f2,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-havs"
+    }, {
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/manual-handling",
+      component: _52f317ea,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-manual-handling"
+    }, {
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/Occupational Noise Awareness",
+      component: _a5c3e494,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-Occupational Noise Awareness"
+    }, {
+      path: "/courses/workplace_safety/:Health_and_Safety_at_Work/wah",
+      component: _4a048d5d,
+      name: "courses-workplace_safety-Health_and_Safety_at_Work-wah"
     }, {
       path: "/category/:id",
       component: _1effb244,
