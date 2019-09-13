@@ -10,14 +10,14 @@
 
         </div>
 
-        <div class="w-auto flex flex-row">
-            <div class="w-1/3 ">
+        <div class=" flex flex-col md:flex-row">
+            <div class=" w-full  md:w-1/3 ">
                 <div class=" bg-primary p-8 text-white">
                     <CourseCategory />
                 </div>
             </div>
 
-            <div class="w-2/3" >
+             <div class="w-full  md:w-2/3" >
                 <div class="bg-gray-200 py-8">
                     <ContentPreview />                            
                 </div>

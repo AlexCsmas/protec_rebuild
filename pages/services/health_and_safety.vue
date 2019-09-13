@@ -4,20 +4,20 @@
 
             <!-- title -->
 			<div class="text-center px-6 py-12 bg-gray-100 border-b">
-				<h1 class="font-display-italic font-extrabold text-5xl md:text-5xl leading-none py-4">Health & Safety Consultancy</h1>
+				<h1 class="font-display-italic font-extrabold text-4xl md:text-5xl md:text-5xl leading-none py-4">Health & Safety Consultancy</h1>
 			</div>
 			<!-- /title -->
 
         </div>
 
-        <div class="w-auto flex flex-row">
-            <div class="w-1/3 ">
+       <div class=" flex flex-col md:flex-row">
+             <div class=" w-full  md:w-1/3 ">
                 <div class=" bg-primary p-8 text-white">
                     <CourseCategory />
                 </div>
             </div>
 
-            <div class="w-2/3" >
+           <div class="w-full  md:w-2/3" >
                 <div class="bg-gray-200 py-8">
                     <article class="px-10">
                        

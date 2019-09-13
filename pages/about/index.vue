@@ -26,14 +26,14 @@
                 
                 <div class="mb-12 lg:mb-0 w-full lg:w-4/12 text-left content-start ">
                   
-                  <h3 class="mb-6 text-sm md:text-2xl text-gray-700 max-w-xl">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</h3>
+                  <h3 class="mb-6 text-md md:text-2xl text-gray-700 max-w-xl">Protec Group Africa is a dynamic and leading occupational health & safety training, consultancy services and equipment provider across the African continent</h3>
  
                 </div>
                 
                 <div class="w-full lg:flex-1 max-w-2xl text-sm lg:pl-12 text-gray-800">
-                  <h3 class="text-xl md: text-3xl mb-3">Our aim is simple </h3>
-                  <p class="mb-3 md: text-xl">To offer a high quality, practical service to clients; from individuals adding to their skill set through to staff from large businesses attending courses across the country. </p>
-                  <p class="mb-3 md: text-xl">A trusted partner and resource of knowledge, our team is dedicated to helping you: from the very first telephone conversation through to course completion - and however else we can assist after this.</p>
+                  <h3 class="text-xl md:text-3xl mb-3">Our aim is simple </h3>
+                  <p class="mb-3 text-md md:text-xl">To offer a high quality, practical service to clients; from individuals adding to their skill set through to staff from large businesses attending courses across the country. </p>
+                  <p class="mb-3 text-md md:text-xl">A trusted partner and resource of knowledge, our team is dedicated to helping you: from the very first telephone conversation through to course completion - and however else we can assist after this.</p>
 
                   <div class=" flex justify-between ">
                       

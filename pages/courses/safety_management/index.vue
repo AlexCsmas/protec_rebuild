@@ -10,13 +10,13 @@
 
         </div>
 
-        <div class="w-auto flex flex-row">
-            <div class="w-1/3 ">
+         <div class=" flex flex-col md:flex-row">
+            <div class=" w-full  md:w-1/3 ">
                 <CourseCategory/>
             </div>
 
-            <div class="w-2/3" >
-                <div class="bg-gray-200 py-8">
+             <div class="w-full  md:w-2/3" >
+                <div class="bg-gray-200 md:py-8">
                     <article class="px-10">
                        <!--Title-->
                         <h1 class="flex items-center font-sans font-bold break-normal text-primary text-xl md:text-2xl pb-4"> 
