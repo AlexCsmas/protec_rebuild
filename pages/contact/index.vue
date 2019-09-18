@@ -56,20 +56,22 @@
                     <div class="bg-gray-200">
 
                       <!-- Form --> 
-                      <div class=" md: bg-white shadow-md rounded px-8 pt-6 pb-8 flex flex-col">
+
+                      <form action="POST" data-netlify="true">    
+                        <div class=" md: bg-white shadow-md rounded px-8 pt-6 pb-8 flex flex-col">
                             <div class="-mx-3 md:flex mb-6">
                                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                                <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
-                                    Full Name
-                                </label>
-                                <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="John Doe">
-                                <p class="text-red text-xs italic">Please fill out this field.</p>
+                                    <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
+                                        Full Name
+                                    </label>
+                                    <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3" id="name" type="text" placeholder="John Doe" name="name">
+                                    <p class="text-red text-xs italic">Please fill out this field.</p>
                                 </div>
                                 <div class="md:w-1/2 px-3">
-                                <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name">
-                                Company Name
-                                </label>
-                                <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-last-name" type="text" placeholder="Company XYZ --- (Optional)">
+                                    <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name">
+                                   Email Address
+                                    </label>
+                                    <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="email" type="email" placeholder="john.doe@xyz.company..">
                                 </div>
                             </div>
                         
@@ -96,11 +98,11 @@
                                         How can we be of assistance
                                        
                                 </label>
-								<textarea class="block w-full border border-red-300er rounded py-2 px-3 text-sm text-gray-700 h-32" placeholder="This field is required..."></textarea>
+								<textarea class="block w-full border border-red-300er rounded py-2 px-3 text-sm text-gray-700 h-32" placeholder="This field is required..." name="message" id="message"></textarea>
 								
 							</fieldset>
 
-                            <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center md: w-1/5 justify-center">
+                            <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center md: w-1/5 justify-center" value="Send" type="submit">
                                 <span class="mr-2">Send</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path fill="currentcolor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
@@ -108,6 +110,9 @@
                             </button>
 
                         </div>
+
+                      </form>
+                      
 
                       <!-- End of Form -->              
                     </div>

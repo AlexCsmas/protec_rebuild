@@ -22,18 +22,7 @@ export default {
   */
   loading: { color: '#fff' },
 
-  generate: {
-    routes(callback) {
-      const posts = require('./posts.json')
-      let routes = posts.map(post => `/post/${post.id}`)
-      callback(null, routes)
-    }, 
-    routes(callback) {
-      const courses = require('./safety_management.json')
-      let routes = courses.map(course => `/course/${course.id}`)
-      callback(null, routes)
-    }
-  }, 
+ 
   /*
   ** Global CSS
   */
