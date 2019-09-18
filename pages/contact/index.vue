@@ -57,7 +57,7 @@
 
                       <!-- Form --> 
 
-                      <form action="POST" data-netlify="true">    
+                      <form name="contact" method="POST" data-netlify="true">    
                         <div class=" md: bg-white shadow-md rounded px-8 pt-6 pb-8 flex flex-col">
                             <div class="-mx-3 md:flex mb-6">
                                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
@@ -102,7 +102,7 @@
 								
 							</fieldset>
 
-                            <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center md: w-1/5 justify-center" value="Send" type="submit">
+                            <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center md: w-1/5 justify-center" type="submit">
                                 <span class="mr-2">Send</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path fill="currentcolor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
