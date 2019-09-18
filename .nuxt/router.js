@@ -10,6 +10,7 @@ const _21593cf0 = () => interopDefault(import('..\\pages\\courses\\index.vue' /*
 const _a1b22142 = () => interopDefault(import('..\\pages\\default\\index.vue' /* webpackChunkName: "pages_default_index" */))
 const _383b3056 = () => interopDefault(import('..\\pages\\latest_news\\index.vue' /* webpackChunkName: "pages_latest_news_index" */))
 const _e7a34d94 = () => interopDefault(import('..\\pages\\services\\index.vue' /* webpackChunkName: "pages_services_index" */))
+const _583d3c98 = () => interopDefault(import('..\\pages\\contact\\test.vue' /* webpackChunkName: "pages_contact_test" */))
 const _eb76a99a = () => interopDefault(import('..\\pages\\course\\safety_management_course.vue' /* webpackChunkName: "pages_course_safety_management_course" */))
 const _4b683c51 = () => interopDefault(import('..\\pages\\courses\\coursecat\\index.vue' /* webpackChunkName: "pages_courses_coursecat_index" */))
 const _ed2a2588 = () => interopDefault(import('..\\pages\\courses\\safety_management\\index.vue' /* webpackChunkName: "pages_courses_safety_management_index" */))
@@ -164,6 +165,10 @@ export function createRouter() {
       path: "/services",
       component: _e7a34d94,
       name: "services"
+    }, {
+      path: "/contact/test",
+      component: _583d3c98,
+      name: "contact-test"
     }, {
       path: "/course/safety_management_course",
       component: _eb76a99a,
