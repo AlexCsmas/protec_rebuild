@@ -55,25 +55,45 @@
                 <div class="w-full md: w-2/3" >
                     <div class="bg-gray-200">
 
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="form2" method="POST" data-netlify="true">
+                            <div class="flex flex-col md: flex-row mx-auto px-16 pb-4">
+                                <div class="py-4">
+                                    <p>
+                                        <label>Your Name: <input type="text" name="name" /></label>   
+                                    </p>
+                                </div>
+                                <div class="py-4">
+
+                                    <p>
+                                        <label>Your Email: <input type="email" name="email" /></label>
+                                    </p>
+
+                                </div>
+
+                                <div class=" flex items-center">
+          
+                                    <p class="">
+                                        <label>Your Role: <select name="role[]" multiple> <br>
+                                        <option value="leader">Leader</option>
+                                        <option value="follower">Follower</option>
+                                        </select></label>
+                                    </p>
+
+                                </div>
+
+                                <div class="py-4">
+                                <p>
+                                    <label>Message: <textarea name="message"></textarea></label>
+                                </p>
+                            </div>
+
                             <p>
-                                <label>Your Name: <input type="text" name="name" /></label>   
+                                <button type="submit" class="py-8">Send</button>
                             </p>
-                            <p>
-                                <label>Your Email: <input type="email" name="email" /></label>
-                            </p>
-                            <p>
-                                <label>Your Role: <select name="role[]" multiple>
-                                <option value="leader">Leader</option>
-                                <option value="follower">Follower</option>
-                                </select></label>
-                            </p>
-                            <p>
-                                <label>Message: <textarea name="message"></textarea></label>
-                            </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
+
+                            </div>
+
+                            
                         </form>
 
                                  
