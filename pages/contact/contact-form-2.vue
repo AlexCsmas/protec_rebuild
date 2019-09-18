@@ -1,5 +1,5 @@
 <template>
-    <form name="contact" action="" method="post" netlify>
+    <form name="contact-form-template" action="" method="post" netlify>
         <label class="form-label" for="name">
           Name:
         </label>
