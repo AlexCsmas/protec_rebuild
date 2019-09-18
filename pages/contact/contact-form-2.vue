@@ -1,7 +1,9 @@
 <template>
-   <form name="contact-form" netlify netlify-honeypot="bot-field" hidden>
+<div>
+<form name="contact-form" netlify netlify-honeypot="bot-field" hidden>
   <input type="text" name="name" />
   <input type="email" name="email" />
-  <textarea name="message"></textarea>
-</form>
+  <textarea name="message"></textarea></form>
+</div>
+   
 </template>
