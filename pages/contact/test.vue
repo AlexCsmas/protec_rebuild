@@ -55,7 +55,13 @@
                 <div class="w-full md: w-2/3" >
                     <div class="bg-gray-200">
 
-                        <form name="form2" method="post" netlify>
+                        <form 
+                            name="form2" 
+                            method="post" 
+                            data-netlify="true"
+                            data-netlify-honeypot="bot-field"
+                        >
+                        <input type="hidden" name="form-name" value="ask-question" />
                             <div class="flex flex-col md: flex-row mx-auto px-16 pb-4">
                                 <div class="py-4">
                                     <p>
@@ -70,9 +76,9 @@
 
                                 </div>
 
-                                <div class=" flex items-center">
-          
-                                    <p class="">
+                                <div class=" flex">
+        
+                                    <p class="items-center">
                                         <label>Your Role: <select name="role[]" multiple> <br>
                                         <option value="leader">Leader</option>
                                         <option value="follower">Follower</option>
