@@ -55,7 +55,7 @@
                 <div class="w-full md: w-2/3" >
                     <div class="bg-gray-200">
 
-                        <form name="form2" method="POST" data-netlify="true">
+                        <form name="form2" method="post" netlify>
                             <div class="flex flex-col md: flex-row mx-auto px-16 pb-4">
                                 <div class="py-4">
                                     <p>
